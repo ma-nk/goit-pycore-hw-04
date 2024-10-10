@@ -39,7 +39,7 @@ def change_phone(args, contacts):
         return "That username does not exist"
 
     contacts[user] = phone
-    return f"Updated {user} contact with phone {phone}"
+    return "Contact updated."
 
 
 def main():
