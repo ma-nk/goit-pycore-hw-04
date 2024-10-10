@@ -11,5 +11,5 @@ def total_salary(path):
         print(f"FileNotFoundError: {e}")
         return None
 
-total, average = total_salary("/Users/yuriim/Projects/pycharm/goit-pycore-hw-04/users_salary.txt")
+total, average = total_salary("/Users/user/Projects/pycharm/goit-pycore-hw-04/users_salary.txt")
 print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}")

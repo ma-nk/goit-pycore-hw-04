@@ -15,5 +15,5 @@ def get_cats_info(path):
         print(f"FileNotFoundError: {e}")
         return None
 
-cats_info = get_cats_info("/Users/yuriim/Projects/pycharm/goit-pycore-hw-04/cats.txt")
+cats_info = get_cats_info("/Users/user/Projects/pycharm/goit-pycore-hw-04/cats.txt")
 print(cats_info)
