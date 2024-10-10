@@ -5,7 +5,7 @@ from colorama import Fore, Style
 def parse_file(path):
     for el in path.iterdir():
         level = str(el).count(os.sep)
-        indents = 2 * '  ' * (level)
+        indents = 2 * '  ' * level
         if el.is_dir():
             print(indents + Fore.GREEN + str(os.path.basename(el)))
             parse_file(el)
